@@ -39,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, I would create a resource and create a windows 10 virtual machine in Azure. Search for Remote desktop and copy VM-osTicket virtual machines public IP address in remote desktop. Use the username and password I created in Azure and sign into the remote deskot with that login.
+First, I would create a resource group and create a windows 10 virtual machine in Azure. Search for Remote desktop and copy VM-osTicket virtual machines public IP address in remote desktop. Use the username and password I created in Azure and sign into the remote desktop with that login.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ First, I would create a resource and create a windows 10 virtual machine in Azur
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Search for control panel and click on programs, then click on turn windows feature on or off. Enable Interent Information Services, click on the plus and clock on world wide web ,then application features and enable CGI and click on Common HTTP features to make sure it's enabled as well. 
 </p>
 <br />
 
