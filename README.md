@@ -70,7 +70,7 @@ Once your resouce group and VM is created. Search for Virtual Machine in the sea
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+After you are logged into your remote desktop, dowload your files to setup osTicket.  
 </p>
 <br />
 
