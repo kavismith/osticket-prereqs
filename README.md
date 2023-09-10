@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install osTicket v1.15.8
 - Install HeidiSQL
 
-<h2>Actions and Observations</h2>
+<h2>Create a Resource Group and Virtual Machine</h2>
 
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/110eb958-21a5-4cf1-ad27-df2d55c4117a)
@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-After your Microsoft Azure account has been created, search for resource groups  and crea7te you a resource group for osTicket. Once your resource group is created, search for Virtual Machine. First select your subscription and resource group. For the instance details, create your Virtual Machine Name, set your region, and change your image to Wondows 10 Pro, then you want to set your size to 2-4 vcpus to make sure taht your VM is running fast. Last, create you a username and passowrd taht you can rememeber to sign into your remote desktop with and make sure your check the licensing box for windows 10/11.
+After your Microsoft Azure account has been created, search for resource groups  and crea7te you a resource group for osTicket. Once your resource group is created, search for Virtual Machine. First select your subscription and resource group. For the instance details, create your Virtual Machine Name, set your region, and change your image to Wondows 10 Pro, then you want to set your size to 2-4 vcpus to make sure that your VM is running fast. Last, create you a username and passowrd taht you can rememeber to sign into your remote desktop with and make sure your check the licensing box for windows 10/11.
 </p>
 <br />
 
@@ -56,8 +56,7 @@ After your Microsoft Azure account has been created, search for resource groups 
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
-</p>
+Once your resouce group and VM is created. Search for Virtual Machine in the search bar and copy your public Ip address. Then, search on your computer Remote Desktop and paste your VM IPv4 address in the colouter section; and then press connect. You will then see a login box. Click on "use a different account" and sign in using your username and password you created when you created your Virtual Machine. After you have logged im successfully your remote desktop welcome screen will appear</p>
 <br />
 
 <h2>Actions and Observations</h2>
