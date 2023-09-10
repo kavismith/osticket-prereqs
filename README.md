@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+After your Microsoft Azure account has been created, search for resource groups  and crea7te you a resource group for osTicket. Once your resource group is created, search for Virtual Machine. First select your subscription and resource group. For the instance details, create your Virtual Machine Name, set your region, and change your image to Wondows 10 Pro, then you want to set your size to 2-4 vcpus to make sure taht your VM is running fast. Last, create you a username and passowrd taht you can rememeber to sign into your remote desktop with and make sure your check the licensing box for windows 10/11.
 </p>
 <br />
 
