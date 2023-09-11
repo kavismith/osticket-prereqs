@@ -146,21 +146,108 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
 </p>
 
-<h2>Actions and Observations</h2>
+<h2>Install VC_redist.x86.exe</h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5636d95b-3db9-44ab-836a-e19ed80cadf9)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/c6c2c6b0-4c65-4298-966d-0288005e028a)
+
 
 </p>
 <p>
 Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
 </p>
 
-<h2>Actions and Observations</h2>
+<h2>Install MySQL 5.5.62</h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5636d95b-3db9-44ab-836a-e19ed80cadf9)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/3210073f-f4bb-4965-b93f-6fc497eed603)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/7f0edffe-dbfa-433d-8efb-8dd044f276a4)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/cefdda3d-011c-49b1-aa2c-43e676f500c2)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/936d4464-8fc0-4370-96bd-ce4ed4fcef81)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/8bab6fe5-8299-4028-bb19-3c991fae7c66)
 
 </p>
 <p>
 Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
 </p>
 <br />
+
+<h2>Open IIS</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/8f1144c4-6b3a-404d-a17c-545235cd9345)
+
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
+<h2>Register PHP from within IIS</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5b760977-78f2-4549-a4eb-278e0e7ee83d)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/09e34002-e414-4f99-8bd3-dce6b2b0e14a)
+
+
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
+<h2>Reload IIS</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1e19f3c9-1fdb-464b-978f-ab5668c77c8e)
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+<h2>Install osTicket v1.15.8</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/75732403-b436-41bb-b2d6-542a5decf5c2)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/48cd4bcb-eec3-4f35-8a39-cc03cf297bd1)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/b60b59ca-e725-46fd-8b3c-f5a00af6e217)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/e44b7680-6643-46a4-ac42-a6fd7d1c1c9c)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/a4d835a6-3c17-4827-bc11-362b6116f18d)
+
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
+
+
+<h2>Restart IIS</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/25baf2b2-f33d-4f95-88c7-08a001b86804)
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
+<h2>Click on "Brows*:80"</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1777d6b8-96a8-4220-a2ce-a5afbf617ca5)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/45497ef9-5526-4844-ab55-26ba53d7cd39)
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
+<h2>Click on "Browse*:80"</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/f94959c6-4f0e-4d91-823e-392901617ea8)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1b7a967f-03c7-4e9e-964a-c2ff366e0977)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/268060a7-d59a-4a4f-aa15-60b08d476343)
+
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
