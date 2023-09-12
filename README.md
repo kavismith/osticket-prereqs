@@ -139,7 +139,7 @@ After you have downloaded PHP-7.3.8 file, right click and select extract all.  B
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Download and install VC_redist.x86.exe. Make sure to accept all terms.
 </p>
 <br />
 
@@ -152,12 +152,9 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5989272a-6c2e-4f22-b203-4183f370597e)
 
 
-
-
-
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+  Download and install MYSQAL 5.5.62. Select Typical to instal the most common features. Select the standard configuration. Set up your password for root login. Last click execute
 </p>
 
 
@@ -169,7 +166,7 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Open IIS (Internet Information Services Manager) as an administrator
 </p>
 
 <h2>Register PHP from within IIS</h2>
@@ -182,7 +179,7 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Once IIS is open, double click on PHP. Click on register new PHP. browse  and go to C drive, PHP, click on php-cgithen press ok
 </p>
 
 <h2>Reload IIS</h2>
@@ -190,8 +187,9 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1e19f3c9-1fdb-464b-978f-ab5668c77c8e)
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Restart the server by clicking on vm-osticket to your left and then to your right select restart
 </p>
+
 <h2>Install osTicket v1.15.8</h2>
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/75732403-b436-41bb-b2d6-542a5decf5c2)
@@ -204,7 +202,8 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+
+  Download OS-Ticket from the installation files. Ooen up two folders in windows explorer. Go to This pc and select windows drice C in one folder, select inetpub and then wwwroot. On the second folder open osTickek and drag the upload folder to wwwroot. Then rename the upload folder by right clicking the folder and select rename
 </p>
 
 
