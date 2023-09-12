@@ -215,7 +215,7 @@ Restart the server by clicking on vm-osticket to your left and then to your righ
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+To your right clicl restart or you can click stop then tart agagin to reset IIS  
 </p>
 
 <h2>Click on "Brows*:80"</h2>
@@ -226,18 +226,32 @@ Go to Whatismyipaddress.com to see what your personal computers IPv4 address is.
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+To your left in the connections section, go to sites, then default and then clisk on osTicket. To your right you'll see browse folder click on Browse*:80(http). Click on Browse*:80(http) and osTicket Installer will open in the web browser. YOu will see  the prerequistites and recommended features as well.
 </p>
 
-<h2>Click on "Browse*:80"</h2>
+<h2>Enable PHP features for osTicket instillation </h2>
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/f94959c6-4f0e-4d91-823e-392901617ea8)
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1b7a967f-03c7-4e9e-964a-c2ff366e0977)
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/268060a7-d59a-4a4f-aa15-60b08d476343)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/4151115b-dc04-4938-8611-6989aac77f02)
+
 
 
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+We need to enable PHP extension so osTicket can run smoothly. Open up IIS(Internet Information Services), then open PHP. Once its open clicl on Enable and Disable Extentions. There are 3 extansions that needs to be enabledThey are php_imap, and php_opache. After all extentions have been enabled refresh the osTicket browser and you wil the extanions we just enabled went from red x's to green check marks.
+</p>
+
+<h2>Rename ost-sampleconfig</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/3e9ab952-2e21-4444-ab61-c3117bb78c9c)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/6ef37dc1-9a4a-4312-9db8-4a664c2f269c)
+
+
+
+</p>
+<p>
+Go to file expolrer, click thisPC, windows C, intpub, wwwroot, osTicket, and include. Scroll down to ost-sampleconfig.php and right click and then selct rename. Now, rename the folder to ostconfit.php
 </p>
