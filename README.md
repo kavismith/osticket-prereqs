@@ -42,11 +42,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-After your Microsoft Azure account has been created, search for resource groups  and crea7te you a resource group for osTicket. Once your resource group is created, search for Virtual Machine. First select your subscription and resource group. For the instance details, create your Virtual Machine Name, set your region, and change your image to Wondows 10 Pro, then you want to set your size to 2-4 vcpus to make sure that your VM is running fast. Last, create you a username and passowrd taht you can rememeber to sign into your remote desktop with and make sure your check the licensing box for windows 10/11.
+After your Microsoft Azure account has been created, search for resource groups  and create you a resource group for osTicket. Once your resource group is created, search for Virtual Machine. First select your subscription and resource group. For the instance details, create your Virtual Machine Name, set your region, and change your image to Wondows 10 Pro, then you want to set your size to 2-4 vcpus to make sure that your VM is running fast. Last, create you a username and passowrd taht you can rememeber to sign into your remote desktop with and make sure your check the licensing box for windows 10/11.
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Log into Remote Desktop</h2>
 
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/0a9d14dd-b9ae-402c-9602-f6a8ffc7c2e0)
@@ -59,7 +59,7 @@ After your Microsoft Azure account has been created, search for resource groups 
 Once your resouce group and VM is created. Search for Virtual Machine in the search bar and copy your public Ip address. Then, search on your computer Remote Desktop and paste your VM IPv4 address in the colouter section; and then press connect. You will then see a login box. Click on "use a different account" and sign in using your username and password you created when you created your Virtual Machine. After you have logged im successfully your remote desktop welcome screen will appear</p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Download Your Files & Access IIS Features</h2>
 
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/3b86ed80-8cf2-4d5b-81a1-b5916ebe8bd0)
@@ -70,11 +70,11 @@ Once your resouce group and VM is created. Search for Virtual Machine in the sea
 
 </p>
 <p>
-After you are logged into your remote desktop, dowload your files to setup osTicket.  
+In this section download all files that is need to properly install osTicket. Once files are downloaded seach for control panel. Click on programs. Then select turn Windows features on or off. 
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Enable IIS Features</h2>
 
 
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1064037a-ef0c-4726-91e2-f1ede6e8b6e7)
@@ -84,91 +84,82 @@ After you are logged into your remote desktop, dowload your files to setup osTic
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Once the Windows feature panel is up, click on Internet Information Services box to make sure it it black. Click on World Wide Web Services. Then, click on Application Development Feature drop down and check the CGI and Common HTTP Feature. Select ok and then wait until changes have been made.
 </p>
 <br />
 
-h2>Actions and Observations</h2>
+h2>Download PHP Manager</h2>
 
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/a9f52464-4be5-4cdd-b533-6bbbf3481138)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/8fc8c4b0-9a91-46ff-b533-b2342ddaf089)
+
+
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Download PHP Manager and make sure you accept all terms and then install. If it does not install, then go back to the Windows feature and make sure ISS feature and enabled. Then try again to install PHP Manager
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Download Rewrite_amd64_en-US</h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/7e8b874c-e129-4d33-af51-9cfc5064e75c)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/1ecbe895-c4fa-4315-bb7b-88d14d24ed7d)
+
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
-</p>
-<br />
-<h2>Actions and Observations</h2>
-
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/261fac47-1cbe-4cdc-8a6a-38145795f2bc)
-</p>
-<p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Download Rewirte_amd64_en-US and accept all term and then install 
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Create PHP Folder </h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/261fac47-1cbe-4cdc-8a6a-38145795f2bc)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/95e5f68a-390d-417a-851c-ffb5dbbbac02)
+
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+Open up file explore and click on this PC, then select Windows C and right lock on the empty space. Select new and then folder, then name the new folder PHP
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Download PHP-7.3.8 file</h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/f62d24a8-7842-47ec-959d-b7fa59fa7c4d)
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/624d431f-32fd-4b15-8682-e5082b22ec93)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/dd634c81-4284-42d9-bf7a-4f30d49dcc50)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/2b222a1b-41ef-42ba-b614-7a5eca41a5fe)
 
 </p>
 <p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+After you have downloaded PHP-7.3.8 file, right click and select extract all.  Browse the folder for the PHP folder you created, then select it and click extract
 </p>
 <br />
 
-<h2>Actions and Observations</h2>
+<h2>Download VC-redist.x86.exe </h2>
 
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5636d95b-3db9-44ab-836a-e19ed80cadf9)
-
-</p>
-<p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
-</p>
-
-<h2>Install VC_redist.x86.exe</h2>
-
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/c6c2c6b0-4c65-4298-966d-0288005e028a)
-
-
-</p>
-<p>
-Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
-</p>
-
-<h2>Install MySQL 5.5.62</h2>
-
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/3210073f-f4bb-4965-b93f-6fc497eed603)
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/7f0edffe-dbfa-433d-8efb-8dd044f276a4)
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/cefdda3d-011c-49b1-aa2c-43e676f500c2)
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/936d4464-8fc0-4370-96bd-ce4ed4fcef81)
-![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/8bab6fe5-8299-4028-bb19-3c991fae7c66)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/0873adea-1cad-43fa-b2db-f70b00e3827a)
 
 </p>
 <p>
 Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
 </p>
 <br />
+
+<h2>Download MySQL & Creat MSQL Password</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/7c71ccfe-5c31-40f9-be9e-c3c578b55b48)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/a9894a87-258e-42aa-b35e-8e529560d691)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/0a635f97-0990-4006-b9d6-c036cb7d1c7c)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/70c0a8d2-e344-4304-9f68-635deb4255f8)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/5989272a-6c2e-4f22-b203-4183f370597e)
+
+
+
+
+
+</p>
+<p>
+Go to Whatismyipaddress.com to see what your personal computers IPv4 address is. Take note of this. 
+</p>
+
 
 <h2>Open IIS</h2>
 
