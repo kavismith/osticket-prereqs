@@ -249,9 +249,61 @@ We need to enable PHP extension so osTicket can run smoothly. Open up IIS(Intern
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/3e9ab952-2e21-4444-ab61-c3117bb78c9c)
 ![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/6ef37dc1-9a4a-4312-9db8-4a664c2f269c)
 
+</p>
+<p>
+Go to file expolrer, click thisPC, windows C, intpub, wwwroot, osTicket, and include. Scroll down to ost-sampleconfig.php and right click and then selct rename. Now, rename the folder to ostconfit.php
+</p>
+
+<h2>Assignn Permission: ost-config.php</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/d252f2a3-059b-4a42-846b-65f6ad40793e)
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/15ada31a-e450-415a-b100-e103e20d2c43)
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/e50f6d4e-57a0-4f34-b46a-1b1d6c49a1e0)
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/dfbecf00-7682-458a-bbab-6bd44a21055b)
 
 
 </p>
 <p>
-Go to file expolrer, click thisPC, windows C, intpub, wwwroot, osTicket, and include. Scroll down to ost-sampleconfig.php and right click and then selct rename. Now, rename the folder to ostconfit.php
+Right click on os-config.php and right click, go to properties and select advanced. Click Disable inheritance. Select user or gropu and typein Everyone to provide everyone permission, then click on ok. In the basic permissions section check Full control and then click ok. 
+</p>
+
+<h2>Continue setting uup osTicket in the browser(click) continue</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/2f1b212c-e176-46d3-a215-70f2a4308535)
+
+
+</p>
+<p>
+Go to file expolrer, click this PC, windows C, intpub, wwwroot, osTicket, and include. Scroll down to ost-sampleconfig.php and right click and then selct rename. Now, rename the folder to ostconfit.php
+</p>
+
+
+<h2>Download HeidiSQL</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/f143360e-c67b-4dd0-8030-d9528879ee25)
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/eb4b68d6-c19e-4fe4-9469-5907d315303d)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/8191a1a8-9fd4-4a6c-8346-64f748e43153)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/66d19d73-ef37-4bae-a534-c8548acd6ef0)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/7c4eb2a5-638d-4657-978b-b5e9c8d24d3d)
+
+
+</p>
+<p>
+Download heidiSQL and create a new Database by right clicking on unnamed and select create then click on database and name the database osTicket.   
+</p>
+
+<h2>Set up Database Settings on osTicket</h2>
+
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/75f38ffe-f2d9-42ef-94e3-00ba4cec1f1e)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/91e1633f-ff00-499d-8b8e-5147617a986a)
+![image](https://github.com/kavismith/osticket-prereqs/assets/143667203/9e7b2ea6-cc00-4cb9-b0c1-e66670f948f7)
+
+
+</p>
+<p>
+set up the MYSQL infrmation on the osTicket installer. We already had the userr name that was in the MYSQL downlooad which was root and we also reacted the password in the MYSQL download. Now, all we have to do is just put in the Database name which is osTicket. Last, click Install Now
 </p>
